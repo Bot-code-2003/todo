@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="CSS.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="doodle">
+        <div class="todo">
+          <div class="title">
+            <h2>To-Do List</h2>
+            <img src="./images/check-list.png" />
+          </div>
+          <div class="row">
+            <input type="text" id="input-box" placeholder="Add your task" />
+            <button onclick="addTask()">Add</button>
+          </div>
+          <ul class="list"></ul>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="jscript.js"></script>
+  </body>
+</html>
