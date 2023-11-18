@@ -12,13 +12,17 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    background-image: url("./images/mobile\ back.png") !important;
-    background-repeat: repeat !important;
+    /* background-image: url("./images/mobile\ back.png") !important;
+    background-repeat: repeat !important; */
   }
   .todo {
     padding: 10px !important;
     width: 300px !important;
     margin: 0 !important;
+  }
+  button{
+    padding: 15px !important;
+    margin-right: 13px;
   }
 }
 
@@ -43,24 +47,14 @@ h2 {
   width: 100%;
   min-height: 100vh;
   padding: 10px;
-  background-image: url("./images/background.png");
-  background-repeat: repeat;
-}
-
-.container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(
+   background: radial-gradient(
     circle,
     rgba(210, 174, 238, 1) 0%,
     rgba(255, 185, 233, 1) 100%
   );
-  z-index: -1;
 }
+
+
 
 .todo {
   width: 540px;
@@ -188,8 +182,4 @@ ul li span {
 ul li span:hover {
   background: #ffc0cb;
   border-radius: 5px;
-}
-
-.animation {
-  background-color: #ff92a5;
 }
